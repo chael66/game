@@ -1,7 +1,7 @@
 var canvas;
 var ctx;
-var w=1700;
-var h=1000;
+var w=900;
+var h=600;
 var circles= [];
 
 
@@ -17,7 +17,7 @@ var o1 ={
     "h":100,
     "c":50,
     "a":1,
-    "r":30,
+    "r":20,
     "d":10,
     "angle":0,
     "changle":15
@@ -26,8 +26,8 @@ var o1 ={
 var t1={
     "x":100+rand(w),
     "y":rand(h),
-    "w":50,
-    "h":50,
+    "w":35,
+    "h":35,
     "c":0,
     "a":1,
     "r":25,
@@ -38,8 +38,8 @@ var t1={
 var t2={
     "x":100+rand(w),
     "y":rand(h),
-    "w":50,
-    "h":50,
+    "w":35,
+    "h":35,
     "c":0,
     "a":1,
     "r":25,
@@ -48,8 +48,8 @@ var t2={
 var t3={
     "x":100+rand(w),
     "y":rand(h),
-    "w":50,
-    "h":50,
+    "w":35,
+    "h":35,
     "c":0,
     "a":1,
     "r":25
@@ -105,7 +105,7 @@ function animationLoop(){
 
 
 function drawScore(){
-    ctx.font = "40px Arial";
+    ctx.font = "30px Arial";
     ctx.fillStyle = "white";
     ctx.fillText("Score: "+score, 10, 40);
 }
@@ -126,7 +126,7 @@ function spacebar(event){
     a.push ( {
         "x":rand(w),
         "y":rand(h),
-        "r":10,
+        "r":7,
     });
 }
 

@@ -11,29 +11,29 @@ h1{
     width: 75%;
     text-align: center;
     font-family: arial;
-    font-size: 45pt;
-    color: white;
+    font-size: 25pt;
+    color: rgb(233, 238, 181);
 
 }
 
 #rankingBox{
     margin: auto;
-  
+  color: beige;
     border:3px dashed whitesmoke;
     width: auto;
     height: 90vh;
 } 
 #ranking{
     font-family: 'Press Start 2P', cursive;
-    font-size: 30pt;
+    font-size: 16pt;
     margin-top: 10%;
 }
 a{
     font-family: 'Press Start 2P', cursive;
     /* padding: 10%; */
-    font-size: 25pt;
-    color: white;
+    font-size: 12pt;
+    color: rgb(209, 209, 209);
     text-align: right;
-    border: 1px solid white;
+    border: 1px solid rgb(233, 232, 232);
     
 }
